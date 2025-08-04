@@ -31,7 +31,7 @@ try:
         exit(1)
     
     print("✅ API key loaded successfully")
-    print(f"API key starts with: {api_key[:20]}...")
+    
     
     # Test connection with SSL bypass
     client = anthropic.Anthropic(
